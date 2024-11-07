@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const Tweet = ({ tweet }) => {
   return (
-    <li>
+    <div>
       <p>{tweet}</p>
-    </li>
+    </div>
     );
   };
 

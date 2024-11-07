@@ -3,11 +3,11 @@ import Tweet from "./Tweet";
 
 const TweetList = ({ tweets }) => {
   return (
-    <ul>
+    <div>
       {tweets.map((tweet) => (
         <Tweet key={tweet.id} tweet={tweet} />
       ))}
-    </ul>
+    </div>
   );
 };
 
