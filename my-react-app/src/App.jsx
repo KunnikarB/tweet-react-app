@@ -2,6 +2,7 @@ import { useState } from 'react'
 import TweetInput from './Components/TweetInput'
 import TweetList from './Components/TweetList'
 import Xsvg from './Components/svgs/X'
+import profileImg from '../public/profile.png'
 import './App.css'
 
 function App() {
@@ -18,6 +19,13 @@ function App() {
       <div className="logo">
       <Xsvg />
       </div>
+    
+      <div className="profile">
+        <img src={profileImg} alt="profile" />
+        <h2>Kunikar</h2>
+        <p>@Kunnikar</p>
+      </div>
+
       <div className="card">
         <TweetInput addTweet={addTweet} />
         <TweetList tweets={tweets} />
