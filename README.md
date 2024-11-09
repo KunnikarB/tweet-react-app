@@ -7,16 +7,16 @@
 
 # Technologies Used
 
-## React.js for front-end development.
-#### 👉🏻 Manage state using useState() hook
-#### 👉🏻 Implement useEffect() to handle side effects
-#### 👉🏻 Utilize useRef for managing focus and DOM manipulations
-#### 👉🏻 Pass data through components using AppContect
+## 👉🏻 React.js for front-end development.
+-  Manage state using useState() hook
+-  Implement useEffect() to handle side effects
+-  Utilize useRef for managing focus and DOM manipulations
+-  Pass data through components using AppContect
 
-## CSS for styling.
+## 👉🏻 CSS for styling.
 <br><br>
 
-# Setup Instructions
+# Setup Instructions 👩🏻‍💻
 
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
